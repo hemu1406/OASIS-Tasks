@@ -1,9 +1,0 @@
-package Task2;
-import java.util.ArrayList;
-class NUmberGuessing{
-    static ArrayList<Integer> scoreBoard = new ArrayList<Integer>();
-    public static void main(String[] args) {
-        NumberGuessingGame methodChange = new NumberGuessingGame();
-        methodChange.menu(scoreBoard);
-    }
-}
